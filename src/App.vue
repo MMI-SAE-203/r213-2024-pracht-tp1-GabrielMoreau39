@@ -22,7 +22,7 @@ onErrorCaptured((err, instance, info) => {
   menu
 </button>
 <!-- nav#mainNav>ul>li*3>a[href="#"]{item $} -->
-<nav id="mainNav">
+<nav id="mainNav" v-show="menuIsOpen">
   <ul>
         <li>
           <RouterLink to="/" class="text-red-500 underline"> Accueil </RouterLink>
